@@ -36,12 +36,13 @@ int main(int argc,char *argv[])
         newImageData = (unsigned char*)malloc(width*height*sizeof(unsigned char));
         fread( oldImage, sizeof(unsigned char), width*height, streamIn);
         //MANIPULATE IMAGE
+        int sum=0;
         for(int i = 0; i < height; i++)
         {
             for(int j = 0; j < width; j++)
             {
-                int constant=50;
-                newImageData[p]=(unsigned char)(constant*log(oldImage[p]));
+                int constant=15;
+                newImageData[i*width+j]=(unsigned char)(constant*log(oldImage[i*width+j]));
             }
         }
         //WRITE IMAGE

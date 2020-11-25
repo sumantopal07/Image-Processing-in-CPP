@@ -22,6 +22,7 @@ Or, T(r)= 255-r ; given 8-bit bmp format
 #### Output (with c=127)
 <img src="/screenshots/image_negative.png" width="500" height="300" /> 
 
+  
 ## Log Transformation
 
 The log transformations can be defined by this formula
@@ -34,6 +35,7 @@ Where s and r are the pixel values of the output and the input image and c is a 
 #### Output 
 <img src="/screenshots/log2.png" width="500" height="300" /> 
 
+  
 ## Bit-Plane Slicing
 
 Bit plane slicing is a method of representing an image with one or more bits of the byte used
@@ -47,6 +49,7 @@ level to a binary image
 <img src="/screenshots/bp2.png" width="500" height="300" /> 
 
 
+  
 ## Image Averaging
 
 Image averaging works on the assumption that the noise in your image is truly random. This

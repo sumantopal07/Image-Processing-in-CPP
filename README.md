@@ -4,7 +4,6 @@ programming languages to analyse how images behave when go through certain manip
 bit level.
 
 ### Dataset
----
 We will perform following operation with images extracted from Dataset of 183 lowlighting underwater images from underwater sites in the Northeast Pacific Ocean. 1400x1000
 pixels, varying lighting and recording conditions (Ocean Networks Canada)  
 Dataset:  https://sites.google.com/view/oceandark/home  
